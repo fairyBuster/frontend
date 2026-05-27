@@ -16,6 +16,14 @@
               <span>Users</span>
               <span class="text-xs text-slate-500 group-[.router-link-active]:text-slate-700">/admin/users</span>
             </NuxtLink>
+            <NuxtLink
+              to="/products"
+              class="group flex items-center justify-between rounded-md px-3 py-2 hover:bg-slate-100"
+              active-class="bg-slate-100 font-medium"
+            >
+              <span>Products</span>
+              <span class="text-xs text-slate-500 group-[.router-link-active]:text-slate-700">/admin/products</span>
+            </NuxtLink>
           </nav>
 
           <div class="mt-auto rounded-lg border border-slate-200 bg-slate-50 p-3">
